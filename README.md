@@ -1,6 +1,7 @@
 # Challenge Técnico NC
 
-La aplicación consta de un formulario que envia los datos a un servidor y posteriormente los consume para mostrarlos en una tabla.
+La aplicación consta de un formulario que envia los datos a un servidor y los consume para mostrarlos en una tabla.
+
 El formulario cuenta con una validación sencilla para evitar enviar información con un formato erróneo
 al servidor.
 
@@ -13,4 +14,4 @@ al servidor.
 
 - POST http://localhost:8081/auth
 
-El cual devuelve un token de verificación
+Este endpoint devuelve un token que nos permitirá dar acceso a los componentes principales de la aplicación.
